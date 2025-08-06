@@ -1,0 +1,403 @@
+"dust2.outdoors"
+{
+	"dsp"	"0"
+	"playlooping"
+
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"wave"		"ambient/wind/lightwind.wav"
+	}
+
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"		".2,.3"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/misc/rock1.wav"
+			"wave"	"ambient/misc/rock2.wav"
+			"wave"	"ambient/misc/rock3.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"40,70"
+		"volume"	"0.1,0.2"
+		"pitch"		"85,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/overhead/hel1.wav"
+			"wave"	"ambient/overhead/hel2.wav"
+		}
+	}
+
+	"playlooping"
+	{
+		"volume"		".08"
+		"pitch"		"100"
+		"wave"		"ambient/music/dustmusic1.wav"
+		"soundlevel"  	"SNDLVL_80dB"
+		"position"	"2"
+	}
+
+	"playlooping"
+	{
+		"volume"		".1"
+		"pitch"		"100"
+		"wave"		"ambient/music/dustmusic2.wav"
+		"soundlevel"  	"SNDLVL_80dB"
+		"position"	"1"
+	}
+
+	"playlooping"
+	{
+		"volume"		".05"
+		"pitch"		"100"
+		"wave"		"ambient/music/dustmusic3.wav"
+		"soundlevel"  	"SNDLVL_80dB"
+		"position"	"3"
+	}
+
+	"playlooping"
+	{
+		"volume"		".14"
+		"pitch"		"100"
+		"wave"		"ambient/music/bongo.wav"
+		"soundlevel"  	"SNDLVL_100dB"
+		"position"	"4"
+	}
+
+	"playrandom"
+	{
+		"time"		"18,30"
+		"volume"		".08"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/chatter/arabic_radio1.wav"
+			"wave"	"ambient/chatter/arabic_radio2.wav"
+			"wave"	"ambient/chatter/arabic_radio3.wav"
+			"wave"	"ambient/chatter/arabic_radio4.wav"
+			"wave"	"ambient/chatter/arabic_radio5.wav"
+		}
+
+		"soundlevel"  	"SNDLVL_75dB"
+		"position"	"6"
+	}
+
+	"playrandom"
+	{
+		"time"		"18,30"
+		"volume"		".08"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/chatter/arabic_radio1.wav"
+			"wave"	"ambient/chatter/arabic_radio2.wav"
+			"wave"	"ambient/chatter/arabic_radio3.wav"
+			"wave"	"ambient/chatter/arabic_radio4.wav"
+			"wave"	"ambient/chatter/arabic_radio5.wav"
+		}
+
+		"soundlevel"  	"SNDLVL_75dB"
+		"position"	"0"
+	}
+}
+
+"assault.outside"
+{
+	// wind sound
+	"playlooping"
+	{
+		"volume"		"0.6"
+		"pitch"		"100"
+		"wave"		"ambient/wind/dry_air_short.wav"
+	}
+
+	// Wind gusts
+	"playrandom"
+	{
+		"time"		"10,45"
+		"volume"		"0.03,0.04"
+		"pitch"		"90,110"
+
+		"rndwave"
+		{
+			"wave"	"ambient/wind/wind_gust_2.wav"
+			"wave"	"ambient/wind/wind_gust_8.wav"
+			"wave"	"ambient/wind/wind_gust_10.wav"
+		}
+	}
+
+	// Planes flying overhead
+	"playrandom"
+	{
+		"time"		"20,60"
+		"volume"		".1,.2"
+		"pitch"		"90,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/overhead/plane1.wav"
+			"wave"	"ambient/overhead/plane2.wav"
+			"wave"	"ambient/overhead/plane3.wav"
+		}
+	}
+
+	// Truck metal squeaks
+	"playrandom"
+	{
+		"time"		"10,20"
+		"volume"		".03,.08"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/misc/equipment_stress1.wav"
+			"wave"	"ambient/misc/equipment_stress2.wav"
+			"wave"	"ambient/misc/equipment_stress3.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"3,8"
+		"volume"		"0.15,0.25"
+		"pitch"		"80,100"
+		"soundlevel"  	"SNDLVL_95dB"
+
+		"rndwave"
+		{
+			"wave"	"ambient/misc/car1.wav"
+			"wave"	"ambient/misc/car2.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"15,30"
+		"volume"		"0.08,0.18"
+		"pitch"		"80,100"
+		"soundlevel"  	"SNDLVL_95dB"
+
+		"rndwave"
+		{
+			"wave"	"ambient/misc/ambulance1.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"15,40"
+		"volume"		"0.15,0.20"
+		"pitch"		"80,100"
+		"soundlevel"  	"SNDLVL_95dB"
+
+		"rndwave"
+		{
+			"wave"	"ambient/misc/garbage_truck1.wav"
+			"wave"	"ambient/misc/truck_backup1.wav"
+			"wave"	"ambient/misc/truck_drive1.wav"
+			"wave"	"ambient/misc/truck_drive2.wav"
+			"wave"	"ambient/misc/crane_move1.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"6,20"
+		"volume"		"0.20,0.40"
+		"pitch"		"80,100"
+		"soundlevel"  	"SNDLVL_95dB"
+
+		"rndwave"
+		{
+			"wave"	"ambient/misc/carhonk1.wav"
+			"wave"	"ambient/misc/carhonk2.wav"
+			"wave"	"ambient/misc/carhonk3.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"15,40"
+		"volume"		"0.08,0.18"
+		"pitch"		"80,100"
+		"soundlevel"  	"SNDLVL_95dB"
+
+		"rndwave"
+		{
+			"wave"	"ambient/misc/police1.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"15,50"
+		"volume"		".06,.15"
+		"pitch"		"70,80"
+
+		"rndwave"
+		{
+		"wave"		"ambient/animal/dog1.wav"
+		"wave"		"ambient/animal/dog2.wav"
+		"wave"		"ambient/animal/dog3.wav"
+		"wave"		"ambient/animal/dog4.wav"
+		"wave"		"ambient/animal/dog5.wav"
+		"wave"		"ambient/animal/dog6.wav"
+		"wave"		"ambient/animal/dog7.wav"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"		"20,45"
+		"volume"		"0.04,0.09"
+		"pitch"		"80,100"
+
+		"rndwave"
+		{
+			"wave"	"ambient/machines/train_pass_far.wav"
+		}
+	}
+}
+
+"bangclaw.scary_dripping_tunnel"
+{
+	"dsp"	"1"
+
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"wave"		"rp_bangclaw/sewerloop.wav"
+		"pitch"		"100"
+	}
+
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"wave"		"ambient/water/drip_loop1.wav"
+		"pitch"		"100"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"d1_canals.util_fardrips"
+		// "position"	"0"
+		"volume"	"1.0"
+	}
+	
+	"playsoundscape"
+	{
+		"name"		"d1_canals.util_tunnel_windgusts"
+		"volume"	"0.7"
+	}
+
+	"playrandom"
+	{
+
+		"time"		"5,23"
+		"volume"		"0.4,0.7"
+		"pitch"		"100"
+		"position"	"random"
+
+		"rndwave"
+		{
+		"wave"		"rp_bangclaw/ambient/iron_moaning1.mp3"
+		"wave"		"rp_bangclaw/ambient/squeak_metal1.mp3"
+		"wave"		"rp_bangclaw/ambient/squeak_metal2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+
+		"time"		"15,40"
+		"volume"		"0.3,0.8"
+		"pitch"		"80,100"
+		"position"	"random"
+
+		"rndwave"
+		{
+		"wave"		"rp_bangclaw/ambient/organic_moan1.mp3"
+		"wave"		"rp_bangclaw/ambient/organic_moan2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+
+		"time"		"15,50"
+		"volume"		"0.3,0.4"
+		"pitch"		"90,100"
+		"position"	"random"
+
+		"rndwave"
+		{
+		"wave"		"rp_bangclaw/ambient/rats_panic_1.mp3"
+		"wave"		"rp_bangclaw/ambient/rats_panic_2.mp3"
+		"wave"		"rp_bangclaw/ambient/rats_panic_3.mp3"
+		}
+	}
+}
+
+"assault.ware"
+{
+	"dsp"	"4"
+
+	"playsoundscape"
+	{
+		"name" "assault.inside"
+	}
+
+	// Position 0: Light hum
+	"playsoundscape"
+	{
+		"name"		"assault.humminglight"
+		"positionoverride"	"0"
+	}
+
+	// Position 1: Light hum
+	"playsoundscape"
+	{
+		"name"		"assault.humminglight"
+		"positionoverride"	"1"
+	}
+
+	// Position 2: Light hum
+	"playsoundscape"
+	{
+		"name"		"assault.humminglight"
+		"positionoverride"	"2"
+	}
+
+	// Position 3: Light hum
+	"playsoundscape"
+	{
+		"name"		"assault.humminglight"
+		"positionoverride"	"3"
+	}
+
+	// Position 4: Next to the garage door, noise from outside
+	"playsoundscape"
+	{
+		"name"		"assault.outside"
+		"positionoverride"	"4"
+		"volume" 	".2"
+	}
+
+	// Position 5: Next to the vents
+	"playsoundscape"
+	{
+		"name"		"assault.vents_distant"
+		"positionoverride"	"5"
+		"volume" 	".5"
+	}
+}
