@@ -1,26 +1,39 @@
-🌎 Карта, взятая за основу: `rp_bangclaw_yellow`
+# 🏙️ rp_bangclaw_green
 
-🔮 Ссылка на [**VMF-исходник**](https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-)
+### 🌎 Основан на: [`rp_bangclaw_yellow`][github_rp_bangclaw]
+
+**rp_bangclaw_green** — это расширенное и переосмысленное видение оригинальной карты **rp_bangclaw**.  
+Мы решили разграничить и аккуратно реализовать все свои идеи, чтобы сделать карту именно такой, какой по нашему мнению она должна была быть изначально
 
 > [!NOTE]
-**Данный проект находится в постоянной разработке**.  
-Когда мы будем уверены, что проект **rp_bangclaw_green** готов, мы выложим его в формате **BSP** в **WORKSHOP**.  
-Также пользователи смогут получить доступ к исходному **VMF-файлу** в данном **GitHub**.
+> **Проект находится в активной разработке.**  
+> Когда карта будет готова, мы опубликуем:  
+> - 📦 **Скомпилированную BSP-версию**  
+> - 🛠️ Версию в **Steam Workshop**
 
 ### 🔧 Для разработчиков
 
 1. **Скачайте или клонируйте репозиторий**  
-Репозиторий содержит все исходные VMF-файлы и дополнительный контент
-2. **Скопируйте папку content по директории**  
-`GarrysMod/garrysmod/addons`
+   Репозиторий содержит все исходные VMF-файлы и дополнительный контент
+2. **Скопируйте папку `content` в директорию:**  
+   ```
+   ..\steamapps\common\GarrysMod\garrysmod\addons
+   ```
 
-### ⚙️ Настройки компиляции
+### 🐞 Сообщить об ошибке
 
-**VBSP:**  _без параметров_  
-**VVIS:**  _без параметров_  
-**VRAD:** `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`
+Нашли ошибку, баг или хотите предложить улучшение?  
+[Создайте issue][github_new_issue] или напишите в **Discord**: `yaroslavtarka`
 
-В файл `GarrysMod/garrysmod/lights.rad` были добавлены следующие строки:
+### ⚙️ Параметры компиляции
+
+| Этап        | Параметры                                                           |
+|-------------|---------------------------------------------------------------------|
+| **VBSP**    | _без параметров_                                                    |
+| **VVIS**    | _без параметров_                                                    |
+| **VRAD**    | `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`  |
+
+📄 В файл `GarrysMod/garrysmod/lights.rad` добавьте следующие строки:
 
 ```
 forcetextureshadow props/de_inferno/tree_small.mdl
@@ -31,12 +44,17 @@ forcetextureshadow props_c17/fence03a.mdl
 forcetextureshadow metal/metalfence001a
 ```
 
-🔗 **Разработчики**
-- [**Tarka**][steam_tarka]
-- [**Web_Artur**][steam_webartur]
+### 👥 Разработчики
+
+- [**Tarka**][steam_tarka] 🛠️
+- [**Web_Artur**][steam_webartur] 🌿
+
+### 📌 Ссылки
+
+- 📂 [Оригинальный репозиторий карты `rp_bangclaw_yellow`][github_rp_bangclaw]
 
 <!-- Links -->
-
 [steam_webartur]: https://steamcommunity.com/profiles/76561198115550963
 [steam_tarka]: https://steamcommunity.com/profiles/76561198994995839
 [github_new_issue]: https://github.com/YaroslavTarka/rp_downtown_tits.vmf-fix/issues/new
+[github_rp_bangclaw]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-
