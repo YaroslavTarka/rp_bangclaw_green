@@ -27,12 +27,6 @@
 
 ### ⚙️ Параметры компиляции
 
-| Этап        | Параметры                                                           |
-|-------------|---------------------------------------------------------------------|
-| **VBSP**    | _без параметров_                                                    |
-| **VVIS**    | _без параметров_                                                    |
-| **VRAD**    | `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`  |
-
 📄 В файл `GarrysMod/garrysmod/lights.rad` добавьте следующие строки:
 
 ```
@@ -43,6 +37,12 @@ forcetextureshadow props_c17/fence01b.mdl
 forcetextureshadow props_c17/fence03a.mdl
 forcetextureshadow metal/metalfence001a
 ```
+
+| Этап        | Параметры                                                           |
+|-------------|---------------------------------------------------------------------|
+| **VBSP**    | _без параметров_                                                    |
+| **VVIS**    | _без параметров_                                                    |
+| **VRAD**    | `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`  |
 
 ### 👥 Разработчики
 
