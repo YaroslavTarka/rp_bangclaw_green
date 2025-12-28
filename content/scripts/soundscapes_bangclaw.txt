@@ -1,5 +1,5 @@
 // rp_bangclaw soundscape
-// Modified: Web_Artur (boxden), November 2025
+// Modified: Web_Artur (boxden), December 2025
 
 // DSP Effects
 // 0 : "Normal (off)"
